@@ -109,3 +109,7 @@ h1 {
 h1:hover {
   color: #cc0edd;
 }
+p{
+  font-size: 35%;
+  font-weight: 500;
+}
