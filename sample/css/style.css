@@ -110,9 +110,11 @@ h1:hover {
   color: #cc0edd;
 }
 p{
-  font-size: 85%;
+  font-size: 50px;
   font-weight: 500;
   margin: 0 auto;
   color: red;
   display: block;
+  padding: 50px;
+  text-align: center;
 }
