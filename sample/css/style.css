@@ -93,28 +93,29 @@ H6 {
   font-weight: inherit;
 }
 
-body{
+body {
   background-image: url(https://media4.giphy.com/media/1nbweFkb6kqVhNCwJ4/giphy.gif?cid=ecf05e47ghd36pwsgspwizmc9ghzvf2k48jquvrba22t4mdf&ep=v1_gifs_related&rid=giphy.gif&ct=g);
 }
 
-.slideshow__container{
-	max-width: 900px;
-	height: 550px;
-margin: 0 auto;
+.slideshow__container {
+  max-width: 900px;
+  height: 550px;
+  margin: 0 auto;
 }
-.slideshow__img{
+.slideshow__img {
   /* max-width: 500px; */
   max-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
-.slideshow__img img{
+.slideshow__img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  overflow: hidden;
 }
 h1 {
   max-width: 800px;
@@ -132,11 +133,11 @@ h1 {
 h1:hover {
   color: #cc0edd;
 }
-p{
+p {
   font-size: 50px;
   font-weight: 500;
   margin: 0 auto 30px;
-  color: red;
+  color: rgb(81, 255, 0);
   display: block;
   padding: 50px;
   text-align: center;
